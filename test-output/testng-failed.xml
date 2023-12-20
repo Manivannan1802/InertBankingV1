@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [InertBankingV1]">
+  <listeners>
+    <listener class-name="com.inertBanking.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="AppNAmeTest(failed)">
+    <classes>
+      <class name="com.intertBanking.testCases.TC_LoginTest_001">
+        <methods>
+          <include name="logintest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.intertBanking.testCases.TC_LoginTest_001 -->
+    </classes>
+  </test> <!-- AppNAmeTest(failed) -->
+</suite> <!-- Failed suite [InertBankingV1] -->
